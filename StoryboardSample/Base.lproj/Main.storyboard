@@ -49,13 +49,70 @@
                     <view key="view" contentMode="scaleToFill" id="D8c-Ei-yVk">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OQS-1G-1HS">
+                                <rect key="frame" x="171" y="419" width="32" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Next"/>
+                                <connections>
+                                    <action selector="nextScene:" destination="Vtf-eP-mvd" eventType="touchUpInside" id="DwT-oz-I38"/>
+                                </connections>
+                            </button>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tQ2-fe-zVc">
+                                <rect key="frame" x="163" y="338" width="51" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </switch>
+                        </subviews>
                         <color key="backgroundColor" red="0.99924270070453647" green="1" blue="0.54305931727834666" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" title="First view controller" id="HOD-Zg-TRL"/>
+                    <connections>
+                        <outlet property="mySwitch" destination="tQ2-fe-zVc" id="PqK-Uk-cEV"/>
+                        <segue destination="XJo-1R-UvN" kind="show" identifier="second" id="Utj-ZV-KUy"/>
+                        <segue destination="hok-Et-eO3" kind="show" identifier="third" id="PkR-0b-jP0"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Q2w-O1-hb7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1868" y="54"/>
+        </scene>
+        <!--second view controller-->
+        <scene sceneID="MMo-9u-NGr">
+            <objects>
+                <viewController id="XJo-1R-UvN" customClass="SecondViewController" customModule="StoryboardSample" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="NS6-Me-3Zh"/>
+                        <viewControllerLayoutGuide type="bottom" id="dyn-4j-a1U"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="New-QP-N9s">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.76289298114414528" green="1" blue="0.81230291833172297" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="second view controller" prompt="" id="oUk-mk-afe"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BZM-Ko-4FY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2750" y="-165"/>
+        </scene>
+        <!--Third view controller-->
+        <scene sceneID="jLh-z0-AjJ">
+            <objects>
+                <viewController id="hok-Et-eO3" customClass="ThirdViewController" customModule="StoryboardSample" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="3aX-uN-yNV"/>
+                        <viewControllerLayoutGuide type="bottom" id="seX-1a-M75"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="GTb-Sa-91h">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.92976629683537726" green="1" blue="0.84686151313058033" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Third view controller" id="W2z-P4-07n"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3Ai-rl-nhD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2750" y="500"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="0Ec-6B-uvN">
@@ -74,6 +131,23 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="L0V-lC-hYY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="333.60000000000002" y="55.322338830584712"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="coe-8J-zJh">
+            <objects>
+                <viewController id="xJx-80-6JV" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="9s5-D0-8RS"/>
+                        <viewControllerLayoutGuide type="bottom" id="MoB-Aq-PUe"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="LmI-QH-CN2">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zHG-YV-Mkz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
         </scene>
     </scenes>
 </document>
