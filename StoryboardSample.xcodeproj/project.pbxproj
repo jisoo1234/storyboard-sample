@@ -15,6 +15,7 @@
 		9A8076761F3D8F2F00289209 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8076751F3D8F2F00289209 /* FirstViewController.swift */; };
 		9A8076781F3D931800289209 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8076771F3D931800289209 /* SecondViewController.swift */; };
 		9A80767A1F3D93C700289209 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8076791F3D93C700289209 /* ThirdViewController.swift */; };
+		9A80767C1F3D9D7F00289209 /* GrayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A80767B1F3D9D7F00289209 /* GrayViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		9A8076751F3D8F2F00289209 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		9A8076771F3D931800289209 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		9A8076791F3D93C700289209 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		9A80767B1F3D9D7F00289209 /* GrayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GrayViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				9A8076751F3D8F2F00289209 /* FirstViewController.swift */,
 				9A8076771F3D931800289209 /* SecondViewController.swift */,
 				9A8076791F3D93C700289209 /* ThirdViewController.swift */,
+				9A80767B1F3D9D7F00289209 /* GrayViewController.swift */,
 			);
 			path = StoryboardSample;
 			sourceTree = "<group>";
@@ -149,6 +152,7 @@
 				9A8076781F3D931800289209 /* SecondViewController.swift in Sources */,
 				9A8076761F3D8F2F00289209 /* FirstViewController.swift in Sources */,
 				9A80767A1F3D93C700289209 /* ThirdViewController.swift in Sources */,
+				9A80767C1F3D9D7F00289209 /* GrayViewController.swift in Sources */,
 				9A8076661F3D84F800289209 /* ViewController.swift in Sources */,
 				9A8076641F3D84F800289209 /* AppDelegate.swift in Sources */,
 			);

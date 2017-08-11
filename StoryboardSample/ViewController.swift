@@ -10,6 +10,17 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBAction func openAD(_ sender: Any) {
+        
+        let vc = self.storyboard?.instantiateViewController(withIdentifier: "grayscene")   //스토리보드id넣어
+        
+        if let newVC = vc{
+            //self.modalTransitionStyle = .flipHorizontal
+            self.present(newVC, animated: true, completion : nil)
+        }
+        
+        
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
